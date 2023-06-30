@@ -1,4 +1,4 @@
-# Web Scrapper
+# ✨ Web Scrapper ✨
 
 🌐 Web Text Scraper is your go-to tool for effortlessly extracting text elements from web pages. 🧰 Customize your extraction process by selecting 📃 paragraphs, 🏷️ titles, or specific HTML tags. With robust error handling and a visually appealing display of the extracted text, it simplifies web scraping, making data gathering a breeze. 🚀
 
@@ -38,8 +38,6 @@ Command:
 5. Click the "Scrape" button to start scraping.
 
 6. View the extracted text.
-
-Note: Replace `'Your_Page_Title'` with your desired page title and provide the path to your page icon in `'LOGO.png'` within the `set_page_config` function.
 
 📌 Note:
 
