@@ -3,11 +3,10 @@
 🌐 Web Text Scraper is your go-to tool for effortlessly extracting text elements from web pages. 🧰 Customize your extraction process by selecting 📃 paragraphs, 🏷️ titles, or specific HTML tags. With robust error handling and a visually appealing display of the extracted text, it simplifies web scraping, making data gathering a breeze. 🚀
 
 ## 🔧 Features:
--Flexible Element Selection: Choose the type of elements to scrape, such as paragraphs, titles, or custom HTML tags. 🖋️
--Interactive Interface: User-friendly interface for entering the URL and selecting scraping options. 🌐
--Real-Time Text Extraction: Extract text from the provided URL in real-time upon clicking the "Scrape" button. ⏳
--Feedback Messages: Display messages indicating success, warnings, or errors during the scraping process. 📢
-
+- Flexible Element Selection 🖋️
+- Interactive Interface 🌐
+- Real-Time Text Extraction ⏳
+- Feedback Messages 📢
 
 
 ## 📥 Installation:
@@ -19,7 +18,7 @@ To run the Web Text Scraper, make sure you have the following dependencies insta
 - pip==23.1.2
 - requests==2.28.0
 
-You can install these dependencies by running the following command:
+Command:
 
 👉 pip install -r requirements.txt 👈
 
@@ -29,22 +28,20 @@ You can install these dependencies by running the following command:
 1. Run the streamlit_app.py script using the following command:
 
 🚀 python streamlit_app.py 🚀
-2. The Streamlit application will launch in your browser.
 
-3. Enter the URL of the web page you want to scrape in the provided text input. 🌐
+2. Enter the URL of the web page to scrape.
 
-4. Select the type of elements you want to scrape from the available options: "Paragraphs", "Titles", "Paragraphs and Titles", "All", or "Custom". 📑
+3. Select the elements to scrape: "Paragraphs", "Titles", "Paragraphs and Titles", "All", or "Custom".
 
-5. If you choose the "Custom" option, you can enable the "Custom Tag" checkbox and enter the HTML tags you want to extract, separated by commas. 💻
+4. If choosing the "Custom" option, enable the "Custom Tag" checkbox and enter HTML tags (comma-separated).
 
-6. Click the "Scrape" button to initiate the scraping process. 🕷️
+5. Click the "Scrape" button to start scraping.
 
-7. If the scraping is successful, the extracted text will be displayed on the page. 📄
+6. View the extracted text.
 
-8. If no text elements are found, a warning message will be shown. ⚠️
+Note: Replace `'Your_Page_Title'` with your desired page title and provide the path to your page icon in `'LOGO.png'` within the `set_page_config` function.
 
-9. In case of any errors during the scraping process, an error message will be displayed. ❌
-### 📌 Note:
+📌 Note:
 
 Make sure to replace 'Jatin_Agrawal_20BCS6606' with your desired page title and 'LOGO.png' with the path to your desired page icon in the set_page_config function.
 
